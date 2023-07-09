@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="style3.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+        <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    </head>
+    <body>
+        <header>
+            <div class="container layout-nav layout-center-vertical">
+                <img src="images/logo.svg" alt="logo" class="header-logo">
+                <ul class="navigation font-secondary fs-nav fw-400 layout-nav">
+                    <li><a class="fg-very-dark-blue" href="#">Features</a></li>
+                    <li><a class="fg-very-dark-blue" href="#">Team</a></li>
+                    <li><a class="fg-very-dark-blue" href="#">Sign In</a></li>
+                </ul>
+            </div>
+        </header>
+        <article class="main">
+            <div class="row">
+                <div class="container">
+                    <section class="reverse spacer-row1">
+                        <img src="images/illustration-1.svg" alt="illustration-1">
+                    </section>
+                    <section class="spacer-row1">
+                        <h1 class="font-secondary fs-heading fw-700 center fg-very-dark-blue spacer-head1 line15">All your files in one secure location, accessible anywhere.</h1>
+                        <p class="font-primary fs-text center fg-very-dark-blue spacer-text line15">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+                        <form action="" class="form layout-flex">
+                            <input class="font-secondary fs-nav fw-400 " type="email" name="email" id="email" placeholder="Enter your email...">
+                            <button class="font-secondary fs-nav fw-700 bg-bright-blue fg-white">Get Started</button>
+                        </form>
+                        <p class="input-status font-primary fs-nav fg-slight-red">Please check your email</p>
+                    </section>
+                </div>
+            </div>
+            <div class="row bg-curve"></div>
+            <div class="row bg-light-grayish-blue">
+                <div class="container">
+                    <section class="reverse spacer-row2">
+                        <img src="images/illustration-2.svg" alt="illustration-2">
+                    </section>
+                    <section class="spacer-row2">
+                        <h1 class="font-secondary fs-heading-2 fw-700 center fg-very-dark-blue spacer-head2">Stay productive, wherever you are</h1>
+                        <p class="font-primary fs-text fg-text2 spacer-text">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+                        <p class="font-primary fs-text fg-text2 spacer-text">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+                        <div class="link-wrapper">
+                            <div class="font-primary fs-text fw-400 link contact">
+                                <a class="fg-modern-cyan" href="#">See how Fylo works</a>
+                                <div class="link-icon"></div>
+                            </div>
+                        </div>
+                        <div class="card bg-white">
+                            <div class="card-text">
+                                <img src="images/icon-quotes.svg" alt="">
+                                <p class="font-primary fs-nav fg-very-dark-blue spacer-text line15">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                            </div>
+                            <div class="card-name layout-center-vertical">
+                                <img src="images/avatar-testimonial.jpg" alt="">
+                                <div class="name">
+                                    <p class="font-primary fs-nav fw-700 fg-very-dark-blue">Kyle Burton</p>
+                                    <p class="font-primary fs-card-name fg-very-dark-blue">Founder & CEO, Huddle</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </article>
+        <article class="cta bg-desat-blue spacer-4rem">
+            <div class="container layout-flex">
+                <section class="cta-section">
+                    <h1 class="font-secondary fs-heading-3 fw-700 center fg-white footer-margin">Get early access today</h1>
+                    <p class="font-primary fs-text center fg-white line15">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+                </section>
+                <section class="cta-section">
+                    <form action="" class="cta-form spacer-cta-form">
+                        <input class="font-secondary fs-nav fw-400" type="email" name="email" id="email" placeholder="email@example.com">
+                        <p class="input-status font-primary fs-nav fg-white">Please check your email</p>
+                        <button class="font-secondary fs-nav fw-700 bg-bright-blue fg-white">Get Started For Free</button>
+                    </form>
+                </section>
+            </div>
+        </article>
+        <footer class="bg-very-dark-blue spacer-4rem">
+            <div class="container">
+                <div class="footer-logo bg-white footer-margin spacer-footer-links"></div>
+                <div class="footer-links font-primary fw-400 layout-flex">
+                    <ul class="contacts fg-white">
+                        <li class="contact footer-margin layout-center-vertical">
+                            <img src="images/icon-phone.svg" alt="">
+                            <p>Phone: +1-543-123-4567</p>
+                        </li>
+                        <li class="contact layout-center-vertical">
+                            <img src="images/icon-email.svg" alt="">
+                            <p>example@fylo.com</p>
+                        </li>
+                    </ul>
+                    <ul class="footer-nav font-primary fw-400 spacer-footer-links">
+                        <li class="footer-margin"><a class="fg-white" href="#">About Us</a></li>
+                        <li class="footer-margin"><a class="fg-white" href="#">Jobs</a></li>
+                        <li class="footer-margin"><a class="fg-white" href="#">Press</a></li>
+                        <li><a class="fg-white" href="#">Blog</a></li>
+                    </ul>
+                    <ul class="footer-nav font-primary fw-400">
+                        <li class="footer-margin"><a class="fg-white" href="#">Contact Us</a></li>
+                        <li class="footer-margin"><a class="fg-white" href="#">Terms</a></li>
+                        <li><a class="fg-white" href="#">Privacy</a></li>
+                    </ul>
+                    <ul class="social">
+                        <li class="soc-icon hov-soc-border layout-center-vertical"><a href="#"><i class="fa-brands fa-facebook-f fg-white hov-soc-icon"></i></a></li>
+                        <li class="soc-icon spacer-soc-icon hov-soc-border layout-center-vertical"><a href="#"><i class="fa-brands fa-twitter fg-white hov-soc-icon"></i></a></li>
+                        <li class="soc-icon hov-soc-border layout-center-vertical"><a href="#"><i class="fa-brands fa-instagram fg-white hov-soc-icon"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="check.js"></script>
+        <script src="https://kit.fontawesome.com/290ca7dffc.js" crossorigin="anonymous"></script>
+    </body>
+</html>

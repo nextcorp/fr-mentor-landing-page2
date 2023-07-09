@@ -1,0 +1,147 @@
+.font-primary {
+    font-family: "Open Sans";
+}
+
+.font-secondary {
+    font-family: "Raleway";
+}
+
+.fs-card-name {
+	font-size: 0.75rem;
+}
+
+.fs-nav {
+	font-size: 0.9rem;
+}
+
+.fs-text {
+	font-size: 1rem;
+}
+
+.fs-text2 {
+	font-size: 1.1rem;
+}
+
+.fs-heading-2, .fs-heading-3 {
+    font-size: 1.2rem;
+}
+
+.fs-heading {
+    font-size: 1.5rem;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fg-very-dark-blue {
+	color: hsl(243, 87%, 12%);
+}
+
+.fg-desat-blue {
+	color: hsl(238, 22%, 44%);
+}
+
+.fg-bright-blue {
+	color: hsl(224, 93%, 58%);
+}
+
+.fg-modern-cyan {
+	color: hsl(170, 45%, 43%);
+}
+
+.fg-light-grayish-blue {
+	color: hsl(240, 75%, 98%);
+}
+
+.fg-light-gray {
+	color: hsl(0, 0%, 75%);
+}
+
+.fg-white {
+	color: hsl(0, 100%, 100%);
+}
+
+.bg-very-dark-blue {
+	background-color: hsl(243, 87%, 12%);
+}
+
+.bg-desat-blue {
+	background-color: hsl(238, 22%, 44%);
+}
+
+.bg-bright-blue {
+	background-color: hsl(224, 93%, 58%);
+}
+
+.bg-white {
+	background-color: hsl(0, 100%, 100%);
+}
+
+.bg-light-grayish-blue {
+	background-color: hsl(240, 75%, 98%);
+}
+
+.bg-modern-cyan {
+	background-color: hsl(170, 45%, 43%);
+}
+
+.spacer-4rem {
+    padding-block: 4rem;
+}
+
+.spacer-cta-form {
+    padding-top: 2rem;
+}
+
+.footer-margin {
+    margin-bottom: 1rem;
+}
+
+.spacer-text {
+    margin-block: 1rem;
+}
+
+.spacer-soc-icon {
+    margin-inline: 0.5rem;
+}
+
+.line15 {
+    line-height: 1.5;
+}
+
+.layout-center-vertical {
+    align-items: center;
+}
+
+.layout-nav {
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+@media screen and (min-width: 50em) {
+    .fs-heading-3 {
+        font-size: 1.75rem;
+    }
+
+    .fs-heading-2 {
+        font-size: 2rem;
+    }
+    
+    .fs-heading {
+        font-size: 2rem;
+    }
+
+    .spacer-grid-row {
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+
+    .spacer-text {
+        margin-block: 1rem;
+    }
+}

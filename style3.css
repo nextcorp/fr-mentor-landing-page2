@@ -1,0 +1,11 @@
+input[type="email"]:invalid:focus {
+    outline: 2px solid hsl(340, 28%, 70%);
+}
+
+.fg-slight-red {
+    color: hsl(340, 28%, 70%);
+}
+
+.input-status {
+    display: none;
+}
